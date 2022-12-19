@@ -1,2 +1,14 @@
-<ov-search (search)="onSearch($event)"></ov-search>
-<ov-products [products]="products | productsFilter: query"></ov-products>
+<nav>
+  <a routerLink="/"
+     routerLinkActive="active"
+     [routerLinkActiveOptions]="{exact:true}">
+    Home
+  </a>
+  <a routerLink="/products"
+     routerLinkActive="active"
+     [routerLinkActiveOptions]="{exact:true}">
+    Products
+  </a>
+</nav>
+
+<router-outlet></router-outlet>
