@@ -5,7 +5,7 @@ If you want to catch up:
 git checkout basic/assignment-3
 ```
 
-## 1.1 Mock data
+## 3.1 Mock data
 To reduce boilter plate code in tests it's a good idea to centralize mock data creation.
 
 - Create a file called `shared/product.mock.ts` and paste the following code:
@@ -41,7 +41,7 @@ createProductMock({ id: 2 }); // default + custom id
 createProductMock({ id: 2, title: 'foo' }); // default + custom id + custom title
 ``` 
 
-## 1.2 ProductsComponent
+## 3.2 ProductsComponent
 
 - Install ng-mocks:
 
@@ -97,7 +97,7 @@ Resources:
 - [MockComponent](https://ng-mocks.sudo.eu/api/MockComponent)
 - [Component testing](https://angular.io/guide/testing-components-scenarios)
 
-## 1.3 ProductComponent
+## 3.3 ProductComponent
 
 - Test `ProductComponent` by implementing the following test cases:
 

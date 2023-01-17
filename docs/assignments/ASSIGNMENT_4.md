@@ -5,7 +5,7 @@ If you want to catch up:
 git checkout basic/assignment-4
 ```
 
-## Search component
+## 4.1 Search component
 
 - Generate a search component that's part of `ProductsModule`.
 
@@ -23,7 +23,7 @@ Resources:
 - [Output guide](https://angular.io/guide/inputs-outputs#sending-data-to-a-parent-component)
 - [Angular Material](https://material.angular.io/)
 
-## ProductsFilter pipe
+## 4.2 ProductsFilter pipe
 
 - Generate a products filter `Pipe`:
 
@@ -36,7 +36,7 @@ ng g p products/shared/products-filter
 Resources:
 - [Pipe example](https://angular.io/guide/pipes#example-transforming-a-value-exponentially).
 
-## Client-side search
+## 4.3 Client-side search
 
 - Move the hardcoded products from `ProductsComponent` to `AppComponent` and add an input binding `products` to `ProductsComponent`.
 
@@ -44,7 +44,7 @@ Resources:
 
 You should now be able to filter products by typing into the input field.
 
-## Rating component (Bonus)
+## 4.4 Rating component (Bonus)
 
 Rating stars are currently hardcoded. In this assignment you'll have to use plain JS to generate 5 `span` elements with
 either a full, half or empty star. Here's some TypeScript that helps to type and render the stars:

@@ -7,7 +7,7 @@ git checkout basic/assignment-2
 
 ![architecture](../assets/assignment-1-architecture.png)
 
-## 1.1 Compodoc
+## 2.1 Compodoc
 
 
 To see the current state of our architecture
@@ -25,7 +25,7 @@ npm run compodoc
 Resources:
 - [Compodoc](https://compodoc.app/)
 
-## 1.2 Prepare refactor
+## 2.2 Prepare refactor
 The `AppModule` is coupled to the features which means there's no way to optimize productions builds and share code.
 To fix this problem we will have to refactor the application.
 
@@ -34,7 +34,7 @@ To fix this problem we will have to refactor the application.
 Resources:
 - [Cheat sheet NgModules](https://angular.io/guide/cheatsheet)
 
-## 1.3 Feature Module
+## 2.3 Feature Module
 From a functional point of view we can establish that we have a Products feature in our app.
 
 - Generate a products module:
@@ -54,7 +54,7 @@ ng g m products
 Resources:
 - [FeatureModule](https://angular.io/guide/feature-modules)
 
-## 1.4 Shared module
+## 2.4 Shared module
 
 - Generate a shared module:
 

@@ -87,7 +87,7 @@ You should see `home works!` on screen.
 
 ## 5.5 Child routes
 
-- Add a `products` route to `AppModule` and lazy load the `ProductsOverviewModule`.
+- Add a `products` route to `AppRoutingModule` and lazy load the `ProductsOverviewModule`.
 
 ```typescript
 {

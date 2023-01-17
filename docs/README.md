@@ -1,2 +1,3 @@
 # Angular Workshop
-@TODO: Write introduction
+
+This is a workshop created for people who wanna get started with Angular.
