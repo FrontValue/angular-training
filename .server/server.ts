@@ -12,7 +12,7 @@ cache.set(CartKey, Cart);
 
 const server = fastify();
 
-server.register(require('fastify-cors'));
+server.register(require('@fastify/cors'));
 
 interface ProductsQueryParams {
   filter?: string;
@@ -173,7 +173,7 @@ server.delete('/cart/:id', async (request, reply) => {
   return reply.status(204).send();
 });
 
-server.listen(8080, (err, address) => {
+server.listen({port: 8080}, (err, address) => {
   if (err) {
     console.error(err);
     process.exit(1);
