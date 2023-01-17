@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { SearchComponent } from './search.component';
-import { MockComponent } from "ng-mocks";
+import { MockComponent, MockDirective } from 'ng-mocks';
 import { MatFormField, MatLabel } from "@angular/material/form-field";
 import { FormsModule } from "@angular/forms";
 import { MatIcon } from "@angular/material/icon";
@@ -13,7 +13,7 @@ describe('SearchComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [
         SearchComponent,
-        MockComponent(MatLabel),
+        MockDirective(MatLabel),
         MockComponent(MatIcon),
         MockComponent(MatFormField)
       ],
