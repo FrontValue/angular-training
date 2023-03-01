@@ -1,7 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
 import { ProductsService } from './products.service';
-import { API_CONFIG } from "../../shared/api-config.token";
 import { MockProvider } from "ng-mocks";
 import { HttpClient } from "@angular/common/http";
 import { of } from "rxjs";
@@ -19,9 +18,6 @@ describe('ProductsService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [
-        MockProvider(API_CONFIG, {
-          url: 'url'
-        }),
         MockProvider(HttpClient),
       ]
     });
