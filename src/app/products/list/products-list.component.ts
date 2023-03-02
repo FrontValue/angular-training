@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { Product } from "../shared/product";
-import { ProductsService } from "../products/shared/products.service";
-import { Observable, Subscription } from "rxjs";
+import { Product } from "../../shared/product";
+import { ProductsService } from "../shared/products.service";
+import { Observable } from "rxjs";
 
 @Component({
-  selector: 'ov-products-overview',
-  templateUrl: './products-overview.component.html',
-  styleUrls: ['./products-overview.component.scss']
+  templateUrl: './products-list.component.html',
+  styleUrls: ['./products-list.component.scss']
 })
-export class ProductsOverviewComponent implements OnInit {
+export class ProductsListComponent implements OnInit {
   products$: Observable<Product[]>
 
   query: string;
