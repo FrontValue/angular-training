@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ProductsOverviewComponent } from './products-overview.component';
+import { ProductsOverviewComponent } from './products-list.component';
 import { Type } from "@angular/core";
 import { By } from "@angular/platform-browser";
 import { ProductsComponent } from "../products/products.component";
