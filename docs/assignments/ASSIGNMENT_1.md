@@ -144,7 +144,7 @@ ng g c square-image
 
 ![Products-Product](../assets/products-product.png)
 
-- Refactor `ProductsComponents` so it holds a collection of `Product[]` instead of a single one.
+- Refactor `ProductsComponent` so it holds a collection of `Product[]` instead of a single one.
 
 - Add the following product to the collection so you have 2 products in total.
 

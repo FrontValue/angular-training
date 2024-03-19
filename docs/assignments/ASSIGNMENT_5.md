@@ -77,7 +77,7 @@ const routes: Routes = [
 
 To be able to see the output of the router you must render a `router-outlet`.
 
-- Replace `AppCompont` template with:
+- Replace `AppComponent` template with:
 
 ```html
 <router-outlet></router-outlet>
