@@ -62,7 +62,7 @@ Resources:
 ng g m shared
 ```
 
-- Refactor `SquaredImageComponent` and `RatingComponent` so it's `declared` and `exported` by `SharedModule`.
+- Refactor `SquareImageComponent` and `RatingComponent` so it's `declared` and `exported` by `SharedModule`.
 
 - Add `SharedModule` to `ProductsModule` feature module's `imports`.
 
